@@ -8,7 +8,7 @@
     "format": "pnpm biome format . --write"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jie Wang <hi@jiewa.ng>",
   "license": "MIT",
   "packageManager": "pnpm@10.15.1",
   "devDependencies": {

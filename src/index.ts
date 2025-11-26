@@ -6,15 +6,18 @@ import {
   loadPage,
   saveCompaniesToJSONFile,
 } from "./actions";
-import { BASE_URL, BETWEEN_DETAIL_REQUEST_MS } from "./constants";
+import {
+  BASE_URL,
+  BETWEEN_DETAIL_REQUEST_MS,
+  EXECUTABLE_PATH,
+} from "./constants";
 import type { Company } from "./types";
 
 async function main() {
   try {
     const browser = await chromium.launch({
       headless: true,
-      executablePath:
-        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+      executablePath: EXECUTABLE_PATH,
     });
 
     console.log("Browser launched...");
