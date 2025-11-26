@@ -1,0 +1,25 @@
+{
+  "name": "solarsolutions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.ts",
+  "scripts": {
+    "dev": "pnpm exec tsx src/index.ts",
+    "format": "pnpm biome format . --write"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.15.1",
+  "devDependencies": {
+    "@biomejs/biome": "2.3.7",
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^24.10.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.9.3",
+    "ultracite": "6.3.6"
+  },
+  "dependencies": {
+    "playwright": "^1.57.0"
+  }
+}
