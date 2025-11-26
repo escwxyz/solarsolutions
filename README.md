@@ -1,1 +1,1 @@
-A script to scrape SolarSolutions Düsseldorf 2025 companies.
+A script to scrape [SolarSolutions Düsseldorf 2025](https://www.solarsolutionsduesseldorf.de/ausstellerliste/) companies.
